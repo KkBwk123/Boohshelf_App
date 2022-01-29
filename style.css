@@ -185,6 +185,7 @@ input[type="number"] {
   color: black;
   box-shadow: 0 0 5px 1px #9475ea;
   border-radius: 10px;
+  text-align: justify;
 }
 
 /* TOMBOL HAPUS */
@@ -376,4 +377,20 @@ footer {
   padding: 12px;
   color: white;
   text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 1024px) {
+  .big-container {
+    width: 78%;
+  }
+  main {
+    flex-direction: column;
+  }
+  main .content-left,
+  main .content-right {
+    width: 100%;
+  }
 }
